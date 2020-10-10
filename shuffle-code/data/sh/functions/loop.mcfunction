@@ -3,4 +3,4 @@ schedule function sh:loop 1
 scoreboard players add rng n 1
 execute as @r run function sh:rng
 
-execute if score rng n matches 300.. run scoreboard players set rng n 1
+execute if score rng n matches 459.. run scoreboard players set rng n 1

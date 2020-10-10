@@ -100,27 +100,27 @@ execute if block ~ ~ ~ grass run scoreboard players set test n 89
 
 execute if block ~ ~ ~ fern run scoreboard players set test n 90
 execute if block ~ ~ ~ dead_bush run scoreboard players set test n 91
-execute if block ~ ~ ~ seagrass run scoreboard players set test n 92
+execute if block ~ ~ ~ #sh:seagrass run scoreboard players set test n 92
 execute if block ~ ~ ~ sea_pickle run scoreboard players set test n 93
 execute if block ~ ~ ~ piston run scoreboard players set test n 94
-execute if block ~ ~ ~ white_wool run scoreboard players set test n 95
-execute if block ~ ~ ~ orange_wool run scoreboard players set test n 96
-execute if block ~ ~ ~ magenta_wool run scoreboard players set test n 97
-execute if block ~ ~ ~ light_blue_wool run scoreboard players set test n 98
-execute if block ~ ~ ~ yellow_wool run scoreboard players set test n 99
+execute if block ~ ~ ~ #wool run scoreboard players set test n 95
+execute if block ~ ~ ~ polished_blackstone_button run scoreboard players set test n 96
+execute if block ~ ~ ~ #anvil run scoreboard players set test n 97
+execute if block ~ ~ ~ trapped_chest run scoreboard players set test n 98
+execute if block ~ ~ ~ light_weighted_pressure_plate run scoreboard players set test n 99
 
-execute if block ~ ~ ~ lime_wool run scoreboard players set test n 100
-execute if block ~ ~ ~ pink_wool run scoreboard players set test n 101
-execute if block ~ ~ ~ gray_wool run scoreboard players set test n 102
-execute if block ~ ~ ~ light_gray_wool run scoreboard players set test n 103
-execute if block ~ ~ ~ cyan_wool run scoreboard players set test n 104
-execute if block ~ ~ ~ purple_wool run scoreboard players set test n 105
-execute if block ~ ~ ~ blue_wool run scoreboard players set test n 106
-execute if block ~ ~ ~ brown_wool run scoreboard players set test n 107
-execute if block ~ ~ ~ green_wool run scoreboard players set test n 108
-execute if block ~ ~ ~ red_wool run scoreboard players set test n 109
+execute if block ~ ~ ~ heavy_weighted_pressure_plate run scoreboard players set test n 100
+execute if block ~ ~ ~ daylight_detector run scoreboard players set test n 101
+execute if block ~ ~ ~ redstone_block run scoreboard players set test n 102
+execute if block ~ ~ ~ nether_quartz_ore run scoreboard players set test n 103
+execute if block ~ ~ ~ hopper run scoreboard players set test n 104
+execute if block ~ ~ ~ chiseled_quartz_block run scoreboard players set test n 105
+execute if block ~ ~ ~ quartz_block run scoreboard players set test n 106
+execute if block ~ ~ ~ quartz_bricks run scoreboard players set test n 107
+execute if block ~ ~ ~ quartz_pillar run scoreboard players set test n 108
+execute if block ~ ~ ~ quartz_stairs run scoreboard players set test n 109
 
-execute if block ~ ~ ~ black_wool run scoreboard players set test n 110
+execute if block ~ ~ ~ activator_rail run scoreboard players set test n 110
 execute if block ~ ~ ~ dandelion run scoreboard players set test n 111
 execute if block ~ ~ ~ poppy run scoreboard players set test n 112
 execute if block ~ ~ ~ blue_orchid run scoreboard players set test n 113
@@ -328,5 +328,180 @@ execute if block ~ ~ ~ jungle_button run scoreboard players set test n 296
 execute if block ~ ~ ~ acacia_button run scoreboard players set test n 297
 execute if block ~ ~ ~ dark_oak_button run scoreboard players set test n 298
 execute if block ~ ~ ~ crimson_button run scoreboard players set test n 299
+
+execute if block ~ ~ ~ dropper run scoreboard players set test n 300
+execute if block ~ ~ ~ iron_trapdoor run scoreboard players set test n 301
+execute if block ~ ~ ~ hay_block run scoreboard players set test n 302
+execute if block ~ ~ ~ #carpets run scoreboard players set test n 303
+execute if block ~ ~ ~ terracotta run scoreboard players set test n 304
+execute if block ~ ~ ~ coal_block run scoreboard players set test n 305
+execute if block ~ ~ ~ packed_ice run scoreboard players set test n 306
+execute if block ~ ~ ~ acacia_stairs run scoreboard players set test n 307
+execute if block ~ ~ ~ dark_oak_stairs run scoreboard players set test n 308
+execute if block ~ ~ ~ slime_block run scoreboard players set test n 309
+
+execute if block ~ ~ ~ grass_path run scoreboard players set test n 310
+execute if block ~ ~ ~ sunflower run scoreboard players set test n 311
+execute if block ~ ~ ~ lilac run scoreboard players set test n 312
+execute if block ~ ~ ~ rose_bush run scoreboard players set test n 313
+execute if block ~ ~ ~ peony run scoreboard players set test n 314
+execute if block ~ ~ ~ tall_grass run scoreboard players set test n 315
+execute if block ~ ~ ~ large_fern run scoreboard players set test n 316
+execute if block ~ ~ ~ #sh:dyed_terracotta run scoreboard players set test n 317
+execute if block ~ ~ ~ #sh:stained_glass run scoreboard players set test n 318
+execute if block ~ ~ ~ #sh:stained_glass_panes run scoreboard players set test n 319
+
+execute if block ~ ~ ~ prismarine run scoreboard players set test n 320
+execute if block ~ ~ ~ prismarine_bricks run scoreboard players set test n 321
+execute if block ~ ~ ~ dark_prismarine run scoreboard players set test n 322
+execute if block ~ ~ ~ prismarine_stairs run scoreboard players set test n 323
+execute if block ~ ~ ~ prismarine_brick_stairs run scoreboard players set test n 324
+execute if block ~ ~ ~ dark_prismarine_stairs run scoreboard players set test n 325
+execute if block ~ ~ ~ sea_lantern run scoreboard players set test n 326
+execute if block ~ ~ ~ bubble_column run scoreboard players set test n 327
+execute if block ~ ~ ~ red_sandstone run scoreboard players set test n 328
+execute if block ~ ~ ~ chiseled_red_sandstone run scoreboard players set test n 329
+
+execute if block ~ ~ ~ cut_red_sandstone run scoreboard players set test n 330
+execute if block ~ ~ ~ red_sandstone_stairs run scoreboard players set test n 331
+execute if block ~ ~ ~ magma_block run scoreboard players set test n 332
+execute if block ~ ~ ~ nether_wart_block run scoreboard players set test n 333
+execute if block ~ ~ ~ warped_wart_block run scoreboard players set test n 334
+execute if block ~ ~ ~ red_nether_bricks run scoreboard players set test n 335
+execute if block ~ ~ ~ bone_block run scoreboard players set test n 336
+execute if block ~ ~ ~ observer run scoreboard players set test n 337
+execute if block ~ ~ ~ shulker_box run scoreboard players set test n 338
+execute if block ~ ~ ~ #sh:dyed_shulker_box run scoreboard players set test n 339
+
+execute if block ~ ~ ~ #sh:glazed_terracotta run scoreboard players set test n 340
+execute if block ~ ~ ~ #sh:concrete run scoreboard players set test n 341
+execute if block ~ ~ ~ #sh:concrete_powder run scoreboard players set test n 342
+execute if block ~ ~ ~ turtle_egg run scoreboard players set test n 343
+execute if block ~ ~ ~ #sh:dead_coral_block run scoreboard players set test n 344
+execute if block ~ ~ ~ #sh:dead_coral run scoreboard players set test n 345
+execute if block ~ ~ ~ #sh:dead_coral_plant run scoreboard players set test n 346
+execute if block ~ ~ ~ blue_ice run scoreboard players set test n 347
+execute if block ~ ~ ~ conduit run scoreboard players set test n 348
+execute if block ~ ~ ~ polished_granite_stairs run scoreboard players set test n 349
+
+execute if block ~ ~ ~ red_sandstone_stairs run scoreboard players set test n 350
+execute if block ~ ~ ~ mossy_stone_brick_stairs run scoreboard players set test n 351
+execute if block ~ ~ ~ polished_diorite_stairs run scoreboard players set test n 352
+execute if block ~ ~ ~ mossy_cobblestone_stairs run scoreboard players set test n 353
+execute if block ~ ~ ~ end_stone_brick_stairs run scoreboard players set test n 354
+execute if block ~ ~ ~ stone_stairs run scoreboard players set test n 355
+execute if block ~ ~ ~ smooth_sandstone_stairs run scoreboard players set test n 356
+execute if block ~ ~ ~ smooth_quartz_stairs run scoreboard players set test n 357
+execute if block ~ ~ ~ granite_stairs run scoreboard players set test n 358
+execute if block ~ ~ ~ andesite_stairs run scoreboard players set test n 359
+
+execute if block ~ ~ ~ red_nether_brick_stairs run scoreboard players set test n 360
+execute if block ~ ~ ~ polished_andesite_stairs run scoreboard players set test n 361
+execute if block ~ ~ ~ diorite_stairs run scoreboard players set test n 362
+execute if block ~ ~ ~ polished_granite_slab run scoreboard players set test n 363
+execute if block ~ ~ ~ red_sandstone_slab run scoreboard players set test n 364
+execute if block ~ ~ ~ mossy_stone_brick_slab run scoreboard players set test n 365
+execute if block ~ ~ ~ polished_diorite_slab run scoreboard players set test n 366
+execute if block ~ ~ ~ mossy_cobblestone_slab run scoreboard players set test n 367
+execute if block ~ ~ ~ end_stone_brick_slab run scoreboard players set test n 368
+execute if block ~ ~ ~ stone_slab run scoreboard players set test n 369
+
+execute if block ~ ~ ~ smooth_sandstone_slab run scoreboard players set test n 370
+execute if block ~ ~ ~ smooth_quartz_slab run scoreboard players set test n 371
+execute if block ~ ~ ~ granite_slab run scoreboard players set test n 372
+execute if block ~ ~ ~ andesite_slab run scoreboard players set test n 373
+execute if block ~ ~ ~ red_nether_brick_slab run scoreboard players set test n 374
+execute if block ~ ~ ~ polished_andesite_slab run scoreboard players set test n 375
+execute if block ~ ~ ~ diorite_slab run scoreboard players set test n 376
+execute if block ~ ~ ~ scaffolding run scoreboard players set test n 377
+execute if block ~ ~ ~ iron_door run scoreboard players set test n 378
+execute if block ~ ~ ~ oak_door run scoreboard players set test n 379
+
+execute if block ~ ~ ~ spruce_door run scoreboard players set test n 380
+execute if block ~ ~ ~ birch_door run scoreboard players set test n 381
+execute if block ~ ~ ~ jungle_door run scoreboard players set test n 382
+execute if block ~ ~ ~ acacia_door run scoreboard players set test n 383
+execute if block ~ ~ ~ dark_oak_door run scoreboard players set test n 384
+execute if block ~ ~ ~ crimson_door run scoreboard players set test n 385
+execute if block ~ ~ ~ warped_door run scoreboard players set test n 386
+execute if block ~ ~ ~ repeater run scoreboard players set test n 387
+execute if block ~ ~ ~ comparator run scoreboard players set test n 388
+execute if block ~ ~ ~ fire run scoreboard players set test n 389
+
+execute if block ~ ~ ~ water run scoreboard players set test n 390
+execute if block ~ ~ ~ lava run scoreboard players set test n 391
+execute if block ~ ~ ~ wheat run scoreboard players set test n 392
+execute if block ~ ~ ~ #sh:oak_sign run scoreboard players set test n 393
+execute if block ~ ~ ~ #sh:spruce_sign run scoreboard players set test n 394
+execute if block ~ ~ ~ #sh:birch_sign run scoreboard players set test n 395
+execute if block ~ ~ ~ #sh:jungle_sign run scoreboard players set test n 396
+execute if block ~ ~ ~ #sh:acacia_sign run scoreboard players set test n 397
+execute if block ~ ~ ~ #sh:dark_oak_sign run scoreboard players set test n 398
+execute if block ~ ~ ~ #sh:crimson_sign run scoreboard players set test n 399
+
+execute if block ~ ~ ~ #sh:warped_sign run scoreboard players set test n 400
+execute if block ~ ~ ~ redstone_wire run scoreboard players set test n 401
+execute if block ~ ~ ~ dried_kelp_block run scoreboard players set test n 402
+execute if block ~ ~ ~ cake run scoreboard players set test n 403
+execute if block ~ ~ ~ #beds run scoreboard players set test n 404
+execute if block ~ ~ ~ pumpkin_stem run scoreboard players set test n 405
+execute if block ~ ~ ~ melon_stem run scoreboard players set test n 406
+execute if block ~ ~ ~ nether_wart run scoreboard players set test n 407
+execute if block ~ ~ ~ brewing_stand run scoreboard players set test n 408
+execute if block ~ ~ ~ cauldron run scoreboard players set test n 409
+
+execute if block ~ ~ ~ #flower_pots run scoreboard players set test n 410
+execute if block ~ ~ ~ carrots run scoreboard players set test n 411
+execute if block ~ ~ ~ potatoes run scoreboard players set test n 412
+execute if block ~ ~ ~ #sh:mob_heads run scoreboard players set test n 413
+execute if block ~ ~ ~ #banners run scoreboard players set test n 414
+execute if block ~ ~ ~ loom run scoreboard players set test n 415
+execute if block ~ ~ ~ composter run scoreboard players set test n 416
+execute if block ~ ~ ~ barrel run scoreboard players set test n 417
+execute if block ~ ~ ~ smoker run scoreboard players set test n 418
+execute if block ~ ~ ~ blast_furnace run scoreboard players set test n 419
+
+execute if block ~ ~ ~ cartography_table run scoreboard players set test n 420
+execute if block ~ ~ ~ fletching_table run scoreboard players set test n 421
+execute if block ~ ~ ~ grindstone run scoreboard players set test n 422
+execute if block ~ ~ ~ lectern run scoreboard players set test n 423
+execute if block ~ ~ ~ smithing_table run scoreboard players set test n 424
+execute if block ~ ~ ~ stonecutter run scoreboard players set test n 425
+execute if block ~ ~ ~ bell run scoreboard players set test n 426
+execute if block ~ ~ ~ lantern run scoreboard players set test n 427
+execute if block ~ ~ ~ soul_lantern run scoreboard players set test n 428
+execute if block ~ ~ ~ sweet_berry_bush run scoreboard players set test n 429
+
+execute if block ~ ~ ~ campfire run scoreboard players set test n 430
+execute if block ~ ~ ~ soul_campfire run scoreboard players set test n 431
+execute if block ~ ~ ~ shroomlight run scoreboard players set test n 432
+execute if block ~ ~ ~ honeycomb_block run scoreboard players set test n 433
+execute if block ~ ~ ~ bee_nest run scoreboard players set test n 434
+execute if block ~ ~ ~ beehive run scoreboard players set test n 435
+execute if block ~ ~ ~ honey_block run scoreboard players set test n 436
+execute if block ~ ~ ~ lodestone run scoreboard players set test n 437
+execute if block ~ ~ ~ netherite_block run scoreboard players set test n 438
+execute if block ~ ~ ~ ancient_debris run scoreboard players set test n 439
+
+execute if block ~ ~ ~ target run scoreboard players set test n 440
+execute if block ~ ~ ~ crying_obsidian run scoreboard players set test n 441
+execute if block ~ ~ ~ blackstone run scoreboard players set test n 442
+execute if block ~ ~ ~ blackstone_slab run scoreboard players set test n 443
+execute if block ~ ~ ~ blackstone_stairs run scoreboard players set test n 444
+execute if block ~ ~ ~ polished_blackstone run scoreboard players set test n 445
+execute if block ~ ~ ~ gilded_blackstone run scoreboard players set test n 446
+execute if block ~ ~ ~ beetroots run scoreboard players set test n 447
+execute if block ~ ~ ~ polished_blackstone_slab run scoreboard players set test n 448
+execute if block ~ ~ ~ polished_blackstone_stairs run scoreboard players set test n 449
+
+execute if block ~ ~ ~ chiseled_polished_blackstone run scoreboard players set test n 450
+execute if block ~ ~ ~ polished_blackstone_bricks run scoreboard players set test n 451
+execute if block ~ ~ ~ polished_blackstone_brick_slab run scoreboard players set test n 452
+execute if block ~ ~ ~ polished_blackstone_brick_stairs run scoreboard players set test n 453
+execute if block ~ ~ ~ cracked_polished_blackstone_bricks run scoreboard players set test n 454
+execute if block ~ ~ ~ respawn_anchor run scoreboard players set test n 455
+execute if block ~ ~ ~ #coral_blocks run scoreboard players set test n 456
+execute if block ~ ~ ~ #corals run scoreboard players set test n 457
+execute if block ~ ~ ~ #coral_plants run scoreboard players set test n 458
 
 execute if score test n = block n run function sh:loop/blockcheck/success
