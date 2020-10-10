@@ -16,3 +16,5 @@ execute if score round n matches 2 unless entity @a[tag=playing,tag=alive,scores
 
 execute if score round n matches 2..3 as @a[tag=playing,tag=alive,scores={done=0}] at @s run function sh:loop/blockcheck
 execute if score round n matches 2..3 as @a[tag=playing,tag=alive,scores={done=0}] at @s positioned ~ ~-1 ~ run function sh:loop/blockcheck
+
+effect give @a saturation 99999 255 true
