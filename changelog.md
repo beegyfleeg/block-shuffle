@@ -1,13 +1,16 @@
 # changelog
 
-**v1.0-rc-1.01** *October 10, 2020*
+**v1.0-rc-2** *October 10, 2020*
 
-Bug fixes:
-* Players don't have saturation after dying
+Additions:
+* Chat announces when a player is eliminated
+
+Changes:
+* Vote skip noise is less shrill
 
 Technical:
-* Added markdown files
-* Added version function
+* Some name fixes
+* Voting sound is heard by all players
 
 **v1.0-rc-1** *October 10, 2020*
 
