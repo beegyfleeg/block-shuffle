@@ -14,6 +14,7 @@ gamerule showDeathMessages false
 gamerule announceAdvancements false
 
 scoreboard objectives add n dummy
+scoreboard objectives add c dummy
 scoreboard objectives add lives dummy "Lives"
 scoreboard objectives add gid dummy
 scoreboard objectives add vote trigger

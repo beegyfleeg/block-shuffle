@@ -1,5 +1,13 @@
 # changelog
 
+**v1.0-rc-4** *October 11, 2020*
+
+Bug fixes:
+* Loot chests do not have the same items
+
+Technical:
+* Incorrect announced duration for prep periods
+
 **v1.0-rc-3** *October 11, 2020*
 
 Additions:
