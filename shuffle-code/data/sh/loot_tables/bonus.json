@@ -1,0 +1,68 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": {
+                "min": 0,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "max": 2,
+                                "min": 1
+                            }
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_ingot",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "max": 6,
+                                "min": 3
+                            }
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:gold_ingot",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "max": 5,
+                                "min": 3
+                            }
+                        }
+                    ],
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:redstone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "max": 9,
+                                "min": 2
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

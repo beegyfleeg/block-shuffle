@@ -3,6 +3,7 @@ clear @a
 replaceitem entity @a hotbar.0 stone_sword{Unbreakable:1b}
 replaceitem entity @a hotbar.1 stone_axe{Unbreakable:1b}
 replaceitem entity @a hotbar.2 stone_pickaxe{Unbreakable:1b}
+replaceitem entity @a armor.chest chainmail_chestplate{Unbreakable:1b}
 
 gamerule sendCommandFeedback false
 gamerule keepInventory true
@@ -39,8 +40,6 @@ tag @a remove spect
 tag @a add playing
 tag @a add alive
 
-execute as @a at @s run spawnpoint
-
 effect give @a saturation 999999 255 true
 effect give @a instant_health 1 7 true
 
@@ -52,10 +51,10 @@ gamemode survival @a
 xp set @a 0 levels
 xp set @a 0 points
 
-bossbar add sh:timer {"text":"Preparation Period","color": "green"}
-bossbar set sh:timer color green
+
+bossbar add sh:timer "Timer"
 bossbar set sh:timer players @a
-bossbar set sh:timer style progress
+bossbar set sh:timer style notched_6
 
 forceload remove all
 forceload add 0 0 5 5
@@ -68,5 +67,6 @@ title @a times 3 15 2
 difficulty normal
 
 tp @a @r
+execute as @a at @s run spawnpoint
 
 function sh:prep

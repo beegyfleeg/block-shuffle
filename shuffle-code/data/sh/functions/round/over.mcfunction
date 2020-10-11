@@ -11,4 +11,6 @@ scoreboard players set left n 0
 execute store result score left n if entity @a[tag=playing,tag=alive]
 execute if score left n matches 1 run function sh:end
 
-execute unless score left n matches 1 run schedule function sh:round/start 5s
+scoreboard players remove prep n 1
+execute unless score prep n matches 0 unless score left n matches 1 run schedule function sh:round/start 5s
+execute if score prep n matches 0 unless score left n matches 1 run schedule function sh:prep 5s
