@@ -13,6 +13,7 @@ xp set @a 0 points
 
 clear @a
 effect clear @a
+effect give @a saturation 99999 255 true
 
 bossbar remove sh:timer
 

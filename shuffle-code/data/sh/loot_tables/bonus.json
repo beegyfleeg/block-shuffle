@@ -3,6 +3,34 @@
     "pools": [
         {
             "rolls": {
+                "min": 2,
+                "max": 4
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "stick"
+                },
+                {
+                    "type": "item",
+                    "name": "flint"
+                },
+                {
+                    "type": "item",
+                    "name": "coal"
+                },
+                {
+                    "type": "item",
+                    "name": "string"
+                },
+                {
+                    "type": "item",
+                    "name": "leather"
+                }
+            ]
+        },
+        {
+            "rolls": {
                 "min": 0,
                 "max": 2
             },
@@ -19,7 +47,7 @@
                             }
                         }
                     ],
-                    "weight": 1
+                    "weight": 2
                 },
                 {
                     "type": "item",
@@ -47,7 +75,7 @@
                             }
                         }
                     ],
-                    "weight": 4
+                    "weight": 3
                 },
                 {
                     "type": "item",
@@ -56,13 +84,212 @@
                         {
                             "function": "minecraft:set_count",
                             "count": {
-                                "max": 9,
+                                "max": 5,
+                                "min": 2
+                            }
+                        }
+                    ],
+                    "weight": 6
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.3
+                }
+            ],
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "iron_pickaxe",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:\"fortune\",lvl:1}],Unbreakable:1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "iron_sword",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:\"looting\",lvl:1}],Unbreakable:1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "iron_axe",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:\"sharpness\",lvl:1}],Unbreakable:1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "iron_chestplate",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:\"thorns\",lvl:1}],Unbreakable:1b}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "ender_pearl",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "max": 8,
+                                "min": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "blaze_rod",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "max": 4,
                                 "min": 2
                             }
                         }
                     ]
                 }
-            ]
+            ],
+            "rolls": {
+                "min": 0,
+                "max": 2
+            }
+        },
+        {
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "obsidian",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 4
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "cobblestone",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 2
+                        }
+                    ],
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "end_stone",
+                    "weight": 1
+                }
+            ],
+            "rolls": {
+                "min": 0,
+                "max": 2
+            }
+        },
+        {
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "jungle_sapling"
+                },
+                {
+                    "type": "item",
+                    "name": "acacia_sapling"
+                },
+                {
+                    "type": "item",
+                    "name": "nautilus_shell",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "lapis_lazuli",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 3
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "cocoa_beans"
+                },
+                {
+                    "type": "item",
+                    "name": "chorus_fruit"
+                },
+                {
+                    "type": "item",
+                    "name": "shulker_shell"
+                },
+                {
+                    "type": "item",
+                    "name": "wither_skeleton_skull"
+                },
+                {
+                    "type": "item",
+                    "name": "melon_seeds"
+                },
+                {
+                    "type": "item",
+                    "name": "saddle"
+                },
+                {
+                    "type": "item",
+                    "name": "golden_apple"
+                },
+                {
+                    "type": "item",
+                    "name": "splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"fire_resistance\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "red_sand"
+                }
+            ],
+            "rolls": {
+                "min": 0,
+                "max": 2
+            }
         }
     ]
 }

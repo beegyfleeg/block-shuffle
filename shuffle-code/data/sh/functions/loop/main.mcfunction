@@ -1,5 +1,7 @@
 execute as @a[tag=!spect] unless score @s gid = gid n run function sh:spect/invalid
 
+execute as @a[tag=playing,tag=alive] run function sh:loop/sat
+
 execute if score round n matches 2..3 run title @a[tag=!alive] actionbar {"selector": "@e[tag=stand]","color": "gold"}
 execute if score round n matches 2..3 run title @a[tag=!playing] actionbar {"selector": "@e[tag=stand]","color": "gold"}
 execute if score round n matches 4 run title @a actionbar {"text":"Round skipped!","color": "red"}
@@ -16,5 +18,3 @@ execute if score round n matches 2 unless entity @a[tag=playing,tag=alive,scores
 
 execute if score round n matches 2..3 as @a[tag=playing,tag=alive,scores={done=0}] at @s run function sh:loop/blockcheck
 execute if score round n matches 2..3 as @a[tag=playing,tag=alive,scores={done=0}] at @s positioned ~ ~-1 ~ run function sh:loop/blockcheck
-
-effect give @a saturation 99999 255 true

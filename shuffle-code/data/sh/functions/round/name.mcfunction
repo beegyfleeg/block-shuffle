@@ -409,7 +409,7 @@ execute if score block n matches 371 run data merge entity @s {CustomName:'"Smoo
 execute if score block n matches 372 run data merge entity @s {CustomName:'"Granite Slab"'}
 execute if score block n matches 373 run data merge entity @s {CustomName:'"Andesite Slab"'}
 execute if score block n matches 374 run data merge entity @s {CustomName:'"Red Nether Brick Slab"'}
-execute if score block n matches 375 run data merge entity @s {CustomName:'"Polished Andesite slab"'}
+execute if score block n matches 375 run data merge entity @s {CustomName:'"Polished Andesite Slab"'}
 execute if score block n matches 376 run data merge entity @s {CustomName:'"Diorite Slab"'}
 execute if score block n matches 377 run data merge entity @s {CustomName:'"Scaffolding"'}
 execute if score block n matches 378 run data merge entity @s {CustomName:'"Iron Door"'}
@@ -501,3 +501,4 @@ execute if score block n matches 455 run data merge entity @s {CustomName:'"Resp
 execute if score block n matches 456 run data merge entity @s {CustomName:'"Coral Block"'}
 execute if score block n matches 457 run data merge entity @s {CustomName:'"Coral"'}
 execute if score block n matches 458 run data merge entity @s {CustomName:'"Coral Fan"'}
+execute if score block n matches 459 run data merge entity @s {CustomName:'"Cocoa"'}

@@ -1,5 +1,7 @@
 # changelog
 
+**v1.0-rc-3** *October 11, 2020*
+
 **v1.0-rc-2** *October 10, 2020*
 
 Additions:

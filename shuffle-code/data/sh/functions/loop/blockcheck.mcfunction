@@ -503,5 +503,6 @@ execute if block ~ ~ ~ respawn_anchor run scoreboard players set test n 455
 execute if block ~ ~ ~ #coral_blocks run scoreboard players set test n 456
 execute if block ~ ~ ~ #corals run scoreboard players set test n 457
 execute if block ~ ~ ~ #coral_plants run scoreboard players set test n 458
+execute if block ~ ~ ~ cocoa run scoreboard players set test n 459
 
 execute if score test n = block n run function sh:loop/blockcheck/success

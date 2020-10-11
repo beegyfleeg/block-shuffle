@@ -4,4 +4,6 @@ execute as @a at @s run playsound block.anvil.land master @s ~ ~ ~ 0.3 0.5
 scoreboard players set round n 4
 schedule clear sh:timer/decrease
 
-schedule function sh:round/start 5s
+scoreboard players remove prep n 1
+execute unless score prep n matches 0 run schedule function sh:round/start 5s
+execute if score prep n matches 0 run schedule function sh:prep 5s

@@ -40,7 +40,6 @@ tag @a remove spect
 tag @a add playing
 tag @a add alive
 
-effect give @a saturation 999999 255 true
 effect give @a instant_health 1 7 true
 
 schedule clear sh:loop
