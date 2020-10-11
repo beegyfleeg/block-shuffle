@@ -2,6 +2,19 @@
 
 **v1.0-rc-3** *October 11, 2020*
 
+Additions:
+* Every eight rounds, another prep period appears that comes with a loot chest
+* Players get an unbreakable chainmail chestplate to begin
+* Cocoa block
+* Ender dragon is immediately killed
+
+Changes:
+* Saturation does not cause excessive amounts of healing
+* Prep period length reduced to 2 min
+
+Technical:
+* Fixed capitalization and spelling errors
+
 **v1.0-rc-2** *October 10, 2020*
 
 Additions:
