@@ -1,5 +1,19 @@
 # changelog
 
+**v1.0-rc-5** *October 12, 2020*
+
+Additions:
+* Spawner
+
+Changes:
+* Multiple item balances (see source code)
+
+Bug fixes:
+* Leaving the game as a spectator and rejoining puts you in survival
+* Stone Slab occurs twice, softlocking the game
+* All chests are the same, throughout multiple rounds
+* Players that join mid-game to spectate cannot see the timer
+
 **v1.0-rc-4** *October 11, 2020*
 
 Bug fixes:

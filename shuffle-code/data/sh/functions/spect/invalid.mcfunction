@@ -4,3 +4,5 @@ tag @s remove playing
 tag @s remove alive
 gamemode spectator
 function sh:spect/follow
+
+bossbar set sh:timer players @a

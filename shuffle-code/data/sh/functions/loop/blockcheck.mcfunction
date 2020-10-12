@@ -404,7 +404,7 @@ execute if block ~ ~ ~ mossy_stone_brick_slab run scoreboard players set test n 
 execute if block ~ ~ ~ polished_diorite_slab run scoreboard players set test n 366
 execute if block ~ ~ ~ mossy_cobblestone_slab run scoreboard players set test n 367
 execute if block ~ ~ ~ end_stone_brick_slab run scoreboard players set test n 368
-execute if block ~ ~ ~ stone_slab run scoreboard players set test n 369
+execute if block ~ ~ ~ spawner run scoreboard players set test n 369
 
 execute if block ~ ~ ~ smooth_sandstone_slab run scoreboard players set test n 370
 execute if block ~ ~ ~ smooth_quartz_slab run scoreboard players set test n 371

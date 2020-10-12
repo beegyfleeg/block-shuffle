@@ -1,4 +1,5 @@
 execute as @a[tag=!spect] unless score @s gid = gid n run function sh:spect/invalid
+execute as @a[tag=spect,gamemode=!spectator] unless score @s gid = gid n run function sh:spect/invalid
 
 execute as @a[tag=playing,tag=alive] run function sh:loop/sat
 

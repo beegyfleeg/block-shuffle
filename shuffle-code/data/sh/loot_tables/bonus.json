@@ -32,7 +32,7 @@
         {
             "rolls": {
                 "min": 0,
-                "max": 2
+                "max": 4
             },
             "entries": [
                 {
@@ -153,8 +153,8 @@
                         {
                             "function": "set_count",
                             "count": {
-                                "max": 8,
-                                "min": 4
+                                "max": 4,
+                                "min": 2
                             }
                         }
                     ]
@@ -193,11 +193,11 @@
                 },
                 {
                     "type": "item",
-                    "name": "cobblestone",
+                    "name": "netherrack",
                     "functions": [
                         {
                             "function": "set_count",
-                            "count": 2
+                            "count": 6
                         }
                     ],
                     "weight": 2
@@ -283,7 +283,23 @@
                 },
                 {
                     "type": "item",
-                    "name": "red_sand"
+                    "name": "red_sand",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "nether_wart",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 3
+                        }
+                    ]
                 }
             ],
             "rolls": {

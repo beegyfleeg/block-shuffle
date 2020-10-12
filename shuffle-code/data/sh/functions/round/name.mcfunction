@@ -402,7 +402,7 @@ execute if score block n matches 365 run data merge entity @s {CustomName:'"Moss
 execute if score block n matches 366 run data merge entity @s {CustomName:'"Polished Diorite Slab"'}
 execute if score block n matches 367 run data merge entity @s {CustomName:'"Mossy Cobblestone Slab"'}
 execute if score block n matches 368 run data merge entity @s {CustomName:'"End Stone Brick Slab"'}
-execute if score block n matches 369 run data merge entity @s {CustomName:'"Stone Slab"'}
+execute if score block n matches 369 run data merge entity @s {CustomName:'"Spawner"'}
 
 execute if score block n matches 370 run data merge entity @s {CustomName:'"Smooth Sandstone Slab"'}
 execute if score block n matches 371 run data merge entity @s {CustomName:'"Smooth Quartz Slab"'}
